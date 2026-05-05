@@ -55,11 +55,11 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'core.urls'
 
 
-# ✅ TEMPLATES (UPDATED)
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],   # 👈 IMPORTANT
+        'DIRS': [BASE_DIR / 'templates'],  
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -112,7 +112,7 @@ USE_TZ = True
 # STATIC FILES
 STATIC_URL = 'static/'
 
-# 👇 OPTIONAL but recommended
+
 STATICFILES_DIRS = [BASE_DIR / 'static']
 
 
